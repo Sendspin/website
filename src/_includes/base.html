@@ -25,41 +25,41 @@ Sendspin: Music Experience Protocol
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link href="{{ '/style.css' | url }}" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
     <title>{{ full_title }}</title>
-    <link rel="icon" href="{{ '/images/sendspin-favicon.png' | url }}" type="image/png" />
+    <link rel="icon" href="/images/sendspin-favicon.png" type="image/png" />
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width" />
     <meta property="og:title" content="{{ full_title }}" />
     <meta property="og:site_name" content="Sendspin" />
     <meta
       property="og:url"
-      content="https://sendspin-audio.com{{ page.url | url }}"
+      content="https://sendspin-audio.com{{ page.url }}"
     />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ description }}" />
     <meta
       property="og:image"
-      content="https://sendspin-audio.com{{ '/images/social.png' | url }}"
+      content="https://sendspin-audio.com/images/social.png"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ full_title }}" />
     <meta name="twitter:description" content="{{ description }}" />
     <meta
       name="twitter:image"
-      content="https://sendspin-audio.com{{ '/images/social.png' | url }}"
+      content="https://sendspin-audio.com/images/social.png"
     />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <a href="{{ '/' | url }}"><h1>Sendspin</h1></a>
+        <a href="/"><h1>Sendspin</h1></a>
         <ul>
           {% for item in menu %}
           <li>
             <a
               class="{% if page.url == item[0] %}active{% endif %}"
-              href="{{ item[0] | url }}"
+              href="{{ item[0] }}"
               >{{ item[1] }}</a
             >
           </li>
