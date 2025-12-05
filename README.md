@@ -1,6 +1,6 @@
-# Resonate Protocol Website
+# Sendspin Protocol Website
 
-Official website for the Resonate music experience protocol.
+Official website for the Sendspin music experience protocol.
 
 ## Development
 
@@ -50,7 +50,7 @@ This site is configured to deploy automatically to GitHub Pages when changes are
 
 ### Content Updates Needed
 
-- [ ] Add Resonate logo and favicon images to `public/images/`
+- [ ] Add Sendspin logo and favicon images to `public/images/`
 - [ ] Update frontpage content in `src/index.html`
 - [ ] Write protocol specification in `src/spec.md`
 - [ ] Add Music Assistant GitHub URL in `src/code.md`
@@ -58,8 +58,8 @@ This site is configured to deploy automatically to GitHub Pages when changes are
 
 ### Image Assets Required
 
-- `public/images/resonate-logo.svg` (or .png) - Main logo for header
-- `public/images/resonate-favicon.png` - Favicon for browser tab
+- `public/images/sendspin-logo.svg` (or .png) - Main logo for header
+- `public/images/sendspin-favicon.png` - Favicon for browser tab
 - `public/images/social.png` - Social media preview image (1200x630px recommended)
 
 ## Project Structure

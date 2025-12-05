@@ -1,4 +1,4 @@
-# Resonate Website TODO
+# Sendspin Website TODO
 
 ### Content
 
@@ -7,11 +7,11 @@
 ### Assets
 
 - [ ] **Images** (`public/images/`)
-  - [ ] Add Resonate logo (SVG preferred, or PNG)
-    - Suggested filename: `resonate-logo.svg`
+  - [ ] Add Sendspin logo (SVG preferred, or PNG)
+    - Suggested filename: `sendspin-logo.svg`
     - Update reference in `src/_includes/base.html:60`
   - [ ] Add favicon
-    - Filename: `resonate-favicon.png`
+    - Filename: `sendspin-favicon.png`
     - Size: 32x32px or 64x64px
   - [ ] Add social media preview image
     - Filename: `social.png`
@@ -52,4 +52,4 @@
 
 ### Deployment
 
-- [ ] Once we have a domain name for deployment, remove all notion of a base URL
+- [x] Once we have a domain name for deployment, remove all notion of a base URL

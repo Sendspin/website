@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Resonate Protocol Specification
-description: Technical specification for the Resonate music experience protocol.
+title: Sendspin Protocol Specification
+description: Technical specification for the Sendspin music experience protocol.
 ---
 
-The Resonate protocol specification is currently [under development](https://github.com/resonate-protocol/spec).
+The Sendspin protocol specification is currently [under development](https://github.com/Sendspin/spec).
 
 This page will contain:
 - Protocol overview and architecture
