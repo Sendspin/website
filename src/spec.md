@@ -6,7 +6,8 @@ description: Technical specification for the Sendspin music experience protocol.
 
 The Sendspin protocol specification is in public preview and [available on GitHub](https://github.com/Sendspin/spec).
 
-This page will contain:
+When the spec stabilizes, we will update this page to contain:
+
 - Protocol overview and architecture
 - Communication protocols and message formats
 - API specifications
