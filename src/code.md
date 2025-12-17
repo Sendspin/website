@@ -26,16 +26,11 @@ See [the GitHub repository](https://github.com/Sendspin/sendspin-js) for documen
 
 This library powers the Sendspin player in Music Assistant's web interface and the <a href="https://github.com/Sendspin/cast" target="_blank">Google Cast receiver for Sendspin streams</a>.
 
-
-<!--
-
 ### sendspin-go - Go SDK
 
 The sendspin-go SDK provides a Go implementation of Sendspin, enabling developers to build synchronized music experiences in Go applications. It includes both a server and player implementation.
 
 See [the GitHub repository](https://github.com/Sendspin/sendspin-go) for documentation, source code, and examples.
-
--->
 
 ### sendspin-rs - Rust SDK
 
