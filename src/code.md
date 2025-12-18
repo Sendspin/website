@@ -46,5 +46,5 @@ See [the GitHub repository](https://github.com/Sendspin/SendspinKit) for documen
 
 ## Contributing
 
-Sendspin is open source and welcomes contributions. Visit [Sendspin on GitHub](https://github.com/Sendspin) and the <a href="https://discord.gg/DqNuKwKR" target="_blank"
+Sendspin is open source and welcomes contributions. Visit [Sendspin on GitHub](https://github.com/Sendspin) and the <a href="https://discord.gg/kaVm8hGpne" target="_blank"
     >Music Assistant Discord</a> to get involved.
