@@ -6,43 +6,20 @@ description: SDKs, libraries, and code samples for Sendspin.
 
 This page contains software development kits (SDK), libraries, and code samples to help you get started using Sendspin in your projects.
 
-## Integrating Sendspin
+- **Python** - [aiosendspin](https://github.com/Sendspin/aiosendspin)
+  <br><br>
+  Used by [Music Assistant](https://www.music-assistant.io), [sendspin-cli](https://github.com/Sendspin/sendspin-cli)
 
-### aiosendspin - Python SDK
+- **JavaScript** - [sendspin-js](https://github.com/Sendspin/sendspin-js)
+  <br><br>
+  Used by Music Assistant's web interface, [Google Cast receiver for Sendspin](https://github.com/Sendspin/cast), and [Sendspin Party](https://github.com/Sendspin/sendspin-cli?tab=readme-ov-file#sendspin-party)
 
-The aiosendspin SDK provides a Python implementation of Sendspin, making it easy to integrate synchronized music experiences into your Python applications.
-
-See [the GitHub repository](https://github.com/Sendspin/aiosendspin) for documentation, source code, and examples.
-
-For an example client application, check out [`sendspin-cli`](https://github.com/Sendspin/sendspin-cli), a command-line player for Sendspin.
-
-For an example server application, check out [Music Assistant](https://www.music-assistant.io), an open-source music server that supports Sendspin for synchronized playback.
-
-### sendspin-js - JavaScript SDK
-
-The sendspin-js SDK offers a JavaScript implementation of Sendspin, allowing developers to build web applications with synchronized music playback.
-
-See [the GitHub repository](https://github.com/Sendspin/sendspin-js) for documentation, source code, and examples.
-
-This library powers the Sendspin player in Music Assistant's web interface and the <a href="https://github.com/Sendspin/cast" target="_blank">Google Cast receiver for Sendspin streams</a>.
-
-### sendspin-go - Go SDK
-
-The sendspin-go SDK provides a Go implementation of Sendspin, enabling developers to build synchronized music experiences in Go applications. It includes both a server and player implementation.
-
-See [the GitHub repository](https://github.com/Sendspin/sendspin-go) for documentation, source code, and examples.
-
-### sendspin-rs - Rust SDK
-
-The sendspin-rs SDK offers a Rust implementation of Sendspin, allowing developers to create high-performance applications with synchronized music playback.
-
-See [the GitHub repository](https://github.com/Sendspin/sendspin-rs) for documentation, source code, and examples.
-
-### SendspinKit - Swift SDK
-
-SendspinKit provides a Swift implementation of Sendspin, making it easy to integrate synchronized music experiences into iOS and macOS applications.
-
-See [the GitHub repository](https://github.com/Sendspin/SendspinKit) for documentation, source code, and examples.
+- **Go** - [sendspin-go](https://github.com/Sendspin/sendspin-go)
+- **Rust** - [sendspin-rs](https://github.com/Sendspin/sendspin-rs)
+- **Swift** - [SendspinKit](https://github.com/Sendspin/SendspinKit)
+- **C#/.NET** - [Sendspin.SDK](https://github.com/chrisuthe/windowsSpin/tree/master/src/SendSpin.SDK)
+  <br><br>
+  Used by [windowsSpin](https://github.com/chrisuthe/windowsSpin)
 
 ## Contributing
 
