@@ -19,8 +19,6 @@ This page contains software development kits (SDK), libraries, and code samples 
 - **Swift** - [SendspinKit](https://github.com/Sendspin/SendspinKit)
 - **C#/.NET** - [Sendspin.SDK](https://github.com/chrisuthe/windowsSpin/tree/master/src/Sendspin.SDK)
   <br><br>
-  On [NuGet](https://www.nuget.org/packages/SendSpin.SDK/)
-  <br /><br />
   Used by [windowsSpin](https://github.com/chrisuthe/windowsSpin)
 
 ## Contributing
