@@ -17,7 +17,7 @@ This page contains software development kits (SDK), libraries, and code samples 
 - **Go** - [sendspin-go](https://github.com/Sendspin/sendspin-go)
 - **Rust** - [sendspin-rs](https://github.com/Sendspin/sendspin-rs)
 - **Swift** - [SendspinKit](https://github.com/Sendspin/SendspinKit)
-- **C#/.NET** - [Sendspin.SDK](https://github.com/chrisuthe/windowsSpin/tree/master/src/SendSpin.SDK)
+- **C#/.NET** - [Sendspin.SDK](https://github.com/chrisuthe/windowsSpin/tree/master/src/Sendspin.SDK)
   <br><br>
   Used by [windowsSpin](https://github.com/chrisuthe/windowsSpin)
 
