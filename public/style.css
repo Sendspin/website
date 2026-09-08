@@ -53,21 +53,23 @@
 
 :root {
   /* Brand colors */
-  --ss-coral:           #E66756;
-  --ss-coral-deep:      #C8503F;
-  --ss-coral-soft:      #F2A095;
-  --ss-coral-wash:      #FBE4DF;
+  --ss-coral:           #E25C4C;
+  --ss-coral-deep:      #BF493A;
+  --ss-coral-soft:      #EF958A;
+  --ss-coral-wash:      #F9D9D3;
 
-  --ss-espresso:        #231C18;
-  --ss-espresso-soft:   #4A3F39;
-  --ss-espresso-mute:   #7C6F67;
+  --ss-espresso:        #201A17;
+  --ss-espresso-soft:   #463D39;
+  --ss-espresso-mute:   #776D68;
 
-  --ss-powder:          #B8CFE9;
-  --ss-powder-deep:     #8FB1D2;
-  --ss-powder-wash:     #DCE8F4;
+  --ss-powder:          #AFC8E6;
+  --ss-powder-deep:     #87AACE;
+  --ss-powder-wash:     #D3E2F1;
 
-  --ss-cream:           #E7EADD;
-  --ss-cream-deep:      #D4D8C7;
+  --ss-cream:           #ECEDDE;
+  --ss-cream-deep:      #DBDCC7;
+  /* Paper sits above the guideline beige: an off-white page ground, and the
+     brightest ink on dark grounds. Not itself a guideline color. */
   --ss-paper:           #F5F4EC;
   --ss-paper-pure:      #FFFFFF;
 
@@ -86,14 +88,15 @@
   --fg-3:               var(--ss-espresso-mute);
   --fg-on-coral:        var(--ss-paper);
   --fg-on-dark:         var(--ss-cream);
+  --fg-on-dark-strong:  var(--ss-paper);
 
   --accent:             var(--ss-coral);
   --accent-fg:          #FFFFFF;
   --accent-deep:        var(--ss-coral-deep);
 
-  --line:               rgba(35, 28, 24, 0.10);
-  --line-strong:        rgba(35, 28, 24, 0.18);
-  --line-on-dark:       rgba(231, 234, 221, 0.14);
+  --line:               rgba(32, 26, 23, 0.10);
+  --line-strong:        rgba(32, 26, 23, 0.18);
+  --line-on-dark:       rgba(236, 237, 222, 0.14);
 
   /* Typography */
   --font-display:       "Sendspin Display", ui-sans-serif, system-ui, sans-serif;
@@ -147,14 +150,14 @@
   --r-pill:9999px;
 
   /* Shadows */
-  --shadow-1: 0 1px 2px rgba(35, 28, 24, 0.06),
-              0 1px 1px rgba(35, 28, 24, 0.04);
-  --shadow-2: 0 4px 14px rgba(35, 28, 24, 0.08),
-              0 1px 2px  rgba(35, 28, 24, 0.04);
-  --shadow-3: 0 18px 40px rgba(35, 28, 24, 0.10),
-              0 2px  6px  rgba(35, 28, 24, 0.05);
-  --shadow-coral: 0 10px 28px rgba(230, 103, 86, 0.28);
-  --shadow-inset: inset 0 2px 4px rgba(35, 28, 24, 0.10);
+  --shadow-1: 0 1px 2px rgba(32, 26, 23, 0.06),
+              0 1px 1px rgba(32, 26, 23, 0.04);
+  --shadow-2: 0 4px 14px rgba(32, 26, 23, 0.08),
+              0 1px 2px  rgba(32, 26, 23, 0.04);
+  --shadow-3: 0 18px 40px rgba(32, 26, 23, 0.10),
+              0 2px  6px  rgba(32, 26, 23, 0.05);
+  --shadow-coral: 0 10px 28px rgba(226, 92, 76, 0.28);
+  --shadow-inset: inset 0 2px 4px rgba(32, 26, 23, 0.10);
 
   /* Motion */
   --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
@@ -243,7 +246,7 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
 .ground-espresso { background: var(--ss-espresso); color: var(--ss-cream); }
 .ground-coral { background: var(--ss-coral); color: #fff; }
 
-.ground-espresso h1, .ground-espresso h2, .ground-espresso h3, .ground-espresso h4 { color: var(--ss-paper); }
+.ground-espresso h1, .ground-espresso h2, .ground-espresso h3, .ground-espresso h4 { color: var(--fg-on-dark-strong); }
 .ground-espresso a { color: var(--ss-coral-soft); }
 .ground-espresso a:hover { color: var(--ss-coral); }
 
@@ -284,12 +287,12 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
 }
 .btn--ghost:hover {
   background: var(--ss-espresso);
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   border-color: var(--ss-espresso);
 }
 .btn--ghost-on-dark {
   background: transparent;
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   border: 1.5px solid var(--line-on-dark);
 }
 .btn--ghost-on-dark:hover {
@@ -318,7 +321,7 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
 .ground-espresso a.btn--ghost { color: var(--fg-1); }
 .btn--ghost:hover,
 .ground-espresso .btn--ghost:hover,
-.ground-espresso a.btn--ghost:hover { color: var(--ss-paper); }
+.ground-espresso a.btn--ghost:hover { color: var(--fg-on-dark-strong); }
 .btn .arrow {
   transition: transform var(--t-base) var(--ease-spring);
 }
@@ -434,7 +437,7 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
 }
 .nav__cta {
   background: var(--ss-espresso);
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   padding: 10px 18px;
   border-radius: var(--r-pill);
   text-decoration: none;
@@ -442,12 +445,12 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
   font-size: 14px;
   transition: transform var(--t-fast) var(--ease-out), background var(--t-fast) var(--ease-out);
 }
-.nav__cta:hover { background: #000; transform: translateY(-1px); color: var(--ss-paper); }
+.nav__cta:hover { background: #000; transform: translateY(-1px); color: var(--fg-on-dark-strong); }
 
 /* Build-section nav: coral-washed so you can tell you're in the build part */
 .nav--build {
-  background: rgba(231, 234, 221, 0.82); /* --ss-cream */
-  border-bottom-color: rgba(212, 216, 199, 0.9); /* --ss-cream-deep */
+  background: rgba(236, 237, 222, 0.82); /* --ss-cream */
+  border-bottom-color: rgba(219, 220, 199, 0.9); /* --ss-cream-deep */
 }
 @media (max-width: 720px) {
   .nav--build .nav__links { background: var(--ss-cream); }
@@ -666,7 +669,7 @@ section[id] { scroll-margin-top: calc(72px + var(--sp-4)); }
 
 .page-content pre:not(.mermaid) {
   background: var(--ss-espresso);
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   border-radius: var(--r-md);
   padding: var(--sp-4) var(--sp-5);
   overflow-x: auto;
