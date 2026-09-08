@@ -136,8 +136,8 @@
   background: var(--ss-paper-pure);
   box-shadow:
     0 0 0 3px var(--ss-coral),
-    0 0 0 4px rgba(35, 28, 24, 0.45),
-    0 2px 6px rgba(35, 28, 24, 0.35);
+    0 0 0 4px rgba(32, 26, 23, 0.45),
+    0 2px 6px rgba(32, 26, 23, 0.35);
   transition: transform var(--t-fast) var(--ease-out),
               background-color var(--t-fast) var(--ease-out),
               box-shadow var(--t-fast) var(--ease-out);
@@ -149,8 +149,8 @@
   background: var(--ss-coral);
   box-shadow:
     0 0 0 3px var(--ss-coral-deep),
-    0 0 0 4px rgba(35, 28, 24, 0.45),
-    0 2px 6px rgba(35, 28, 24, 0.35);
+    0 0 0 4px rgba(32, 26, 23, 0.45),
+    0 2px 6px rgba(32, 26, 23, 0.35);
 }
 @media (hover: hover) {
   .hotspot:hover .hotspot__dot {
@@ -158,8 +158,8 @@
     background: var(--ss-coral);
     box-shadow:
       0 0 0 3px var(--ss-coral-deep),
-      0 0 0 4px rgba(35, 28, 24, 0.45),
-      0 2px 6px rgba(35, 28, 24, 0.35);
+      0 0 0 4px rgba(32, 26, 23, 0.45),
+      0 2px 6px rgba(32, 26, 23, 0.35);
   }
 }
 
@@ -265,8 +265,8 @@
     background: var(--ss-paper-pure);
     box-shadow:
       0 0 0 2px var(--ss-coral),
-      0 0 0 3px rgba(35, 28, 24, 0.45),
-      0 1px 4px rgba(35, 28, 24, 0.35);
+      0 0 0 3px rgba(32, 26, 23, 0.45),
+      0 1px 4px rgba(32, 26, 23, 0.35);
     transition: transform var(--t-fast) var(--ease-out);
   }
   /* The active styles target the dot, which is now the 44px hit area; move them
@@ -287,8 +287,8 @@
     background: var(--ss-coral);
     box-shadow:
       0 0 0 2px var(--ss-coral-deep),
-      0 0 0 3px rgba(35, 28, 24, 0.45),
-      0 1px 4px rgba(35, 28, 24, 0.35);
+      0 0 0 3px rgba(32, 26, 23, 0.45),
+      0 1px 4px rgba(32, 26, 23, 0.35);
   }
 
   .hotspot[data-place="right"] .hotspot__tip,
@@ -438,7 +438,7 @@
 
 /* Demo card — wraps the existing live-demo IDs */
 .demo-card {
-  background: linear-gradient(180deg, #2c2520 0%, #1c1612 100%);
+  background: linear-gradient(180deg, #29231F 0%, #191411 100%);
   border-radius: var(--r-xl);
   padding: var(--sp-6);
   box-shadow: var(--shadow-3), inset 0 1px 0 rgba(255,255,255,0.04);
@@ -473,7 +473,7 @@
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 18px;
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   margin: 0;
 }
 .demo-card__now-track a { color: inherit; text-decoration: none; }
@@ -642,7 +642,7 @@
 }
 .demo-card__sync-graph-shell.sync-good { box-shadow: inset 0 0 0 1px rgba(91, 159, 126, 0.25); }
 .demo-card__sync-graph-shell.sync-warn { box-shadow: inset 0 0 0 1px rgba(224, 160, 74, 0.25); }
-.demo-card__sync-graph-shell.sync-bad  { box-shadow: inset 0 0 0 1px rgba(230, 103, 86, 0.30); }
+.demo-card__sync-graph-shell.sync-bad  { box-shadow: inset 0 0 0 1px rgba(226, 92, 76, 0.30); }
 .demo-card__sync-graph {
   position: absolute;
   inset: 0;
@@ -693,7 +693,7 @@
   align-items: center;
   gap: 8px;
   background: rgba(255,255,255,0.08);
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   padding: 10px 16px;
   border-radius: var(--r-pill);
   font-size: 13px;
@@ -744,7 +744,7 @@
 .open-card__h {
   font-size: 22px;
   font-weight: 800;
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
   margin: 0;
   letter-spacing: -0.01em;
 }
@@ -987,7 +987,7 @@
   letter-spacing: -0.025em;
   line-height: 1;
   margin: var(--sp-3) 0 var(--sp-4);
-  color: var(--ss-paper);
+  color: var(--fg-on-dark-strong);
 }
 .build__lede {
   font-size: 18px;
